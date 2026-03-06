@@ -1,6 +1,3 @@
-/*
-  Danzz For You 💌
-*/
 import { Application, Request, Response, NextFunction } from 'express';
 import * as fs from 'fs';
 import * as path from 'path';
