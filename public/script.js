@@ -16,7 +16,7 @@ async function init() {
             setUi(globalConfig);
             loadEnd(globalConfig.tags);
             startWIBClock();
-            await kuroneko(globalConfig);
+            await bxx(globalConfig);
             loadReminder(); 
             setSearch();
         } catch (e) {
@@ -109,7 +109,7 @@ function terminalLog(message, type = 'info') {
     logs.scrollTop = logs.scrollHeight;
 }
 
-async function kuroneko(config) {
+async function bxx(config) {
     const logs = document.getElementById('term-logs');
     if(!logs) return;
     
@@ -118,7 +118,7 @@ async function kuroneko(config) {
     
     const prompt = document.createElement('span');
     prompt.className = "text-green-500 font-bold mr-2";
-    prompt.innerHTML = "root@danzz~$";
+    prompt.innerHTML = "root@SbyuXd~$";
     
     const inputCmd = document.createElement('span');
     inputCmd.className = "text-gray-200 font-mono relative";
