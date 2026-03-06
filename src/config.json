@@ -1,21 +1,21 @@
 {
   "settings": {
-    "creator": "Danzz",
-    "apiName": "KuroNeko",
+    "creator": "SbyuXd",
+    "apiName": "Bxx",
     "description": "A free and reliable API service designed for modern application development. Built with Node.js and TypeScript, delivering fast performance, stable endpoints, and easy integration.",
     "apiVersion": "v1.0",
     "visitors": "0",
-    "favicon": "/src/danzz.jpg",
+    "favicon": "/src/SbyuXd.jpg",
     "thumbnail": "/src/thumbnail.jpg",
-    "channelUrl": "https://whatsapp.com/channel/0029VbBQG1n3QxRsqN7XkS06",
-    "github": "https://github.com/DanzzAraAra"
+    "channelUrl": "https://whatsapp.com/channel/0029VbBfYMYKQuJGSNkcv80a",
+    "github": "https://github.com/bayuasli"
   },
   "tags": {
     "ai": [
       {
-        "name": "Kuroneko Chat",
-        "endpoint": "/api/ai/kuroneko",
-        "filename": "kuroneko",
+        "name": "Bxx Chat",
+        "endpoint": "/api/ai/bxx",
+        "filename": "bxx",
         "method": "GET",
         "params": [
           {
