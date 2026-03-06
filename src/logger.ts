@@ -1,6 +1,3 @@
-/*
-  Danzz For You 💌
-*/
 import { Request, Response } from 'express';
 
 export const logRouterRequest = (req: Request, res: Response) => {
