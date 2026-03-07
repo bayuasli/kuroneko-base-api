@@ -53,10 +53,23 @@
         "filename": "waifu",
         "method": "GET",
         "params": []
+      },
+      {
+        "name": "Meme",
+        "endpoint": "/api/random/meme",
+        "filename": "meme",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true,
+            "description": "Query"
+          }
+        ]
       }
     ],
     "tools": [
-       {
+      {
         "name": "Screenshot Web",
         "endpoint": "/api/tools/ssweb",
         "filename": "ssweb",
@@ -74,7 +87,7 @@
           }
         ]
       },
-       {
+      {
         "name": "Short URL",
         "endpoint": "/api/tools/shorturl",
         "filename": "shorturl",
