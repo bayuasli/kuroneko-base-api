@@ -46,6 +46,19 @@
         ]
       }
     ],
+{
+  "name": "Web to APK",
+  "endpoint": "/api/maker/web2apk",
+  "filename": "web2apk",
+  "method": "GET",
+  "params": [
+    { "name": "url", "required": true, "description": "URL website yang akan dijadikan APK" },
+    { "name": "name", "required": true, "description": "Nama aplikasi" },
+    { "name": "icon", "required": true, "description": "URL gambar icon" },
+    { "name": "package", "required": false, "description": "Package name (default: com.namaapp.app)" },
+    { "name": "version", "required": false, "description": "Versi app (default: 1.0.0)" }
+  ]
+}
     "random": [
       {
         "name": "Random Waifu",
