@@ -120,6 +120,24 @@
           }
         ]
       },
+{
+  "name": "HDR Upscale",
+  "endpoint": "/api/tools/hdr",
+  "filename": "hdr",
+  "method": "GET",
+  "params": [
+    {
+      "name": "url",
+      "required": true,
+      "description": "URL gambar yang ingin di-upscale"
+    },
+    {
+      "name": "scale",
+      "required": false,
+      "description": "Skala upscale: 1-4 (default: 2)"
+    }
+  ]
+}
       {
         "name": "Short URL",
         "endpoint": "/api/tools/shorturl",
@@ -139,24 +157,6 @@
         ]
       }
     ],
-{
-  "name": "HDR Upscale",
-  "endpoint": "/api/tools/hdr",
-  "filename": "hdr",
-  "method": "GET",
-  "params": [
-    {
-      "name": "url",
-      "required": true,
-      "description": "URL gambar yang ingin di-upscale"
-    },
-    {
-      "name": "scale",
-      "required": false,
-      "description": "Skala upscale: 1-4 (default: 2)"
-    }
-  ]
-}
     "download": [
       {
         "name": "Facebook Downloader",
