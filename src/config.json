@@ -116,28 +116,10 @@
           {
             "name": "type",
             "required": false,
-            "description": "Mobile | Desktop"
+            "description": "mobile | desktop"
           }
         ]
       },
-{
-  "name": "HDR Upscale",
-  "endpoint": "/api/tools/hdr",
-  "filename": "hdr",
-  "method": "GET",
-  "params": [
-    {
-      "name": "url",
-      "required": true,
-      "description": "URL gambar yang ingin di-upscale"
-    },
-    {
-      "name": "scale",
-      "required": false,
-      "description": "Skala upscale: 1-4 (default: 2)"
-    }
-  ]
-}
       {
         "name": "Short URL",
         "endpoint": "/api/tools/shorturl",
@@ -153,6 +135,42 @@
             "name": "alias",
             "required": false,
             "description": "Custom Alias"
+          }
+        ]
+      },
+      {
+        "name": "HDR Image",
+        "endpoint": "/api/tools/hdr",
+        "filename": "hdr",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "URL gambar yang ingin di-upscale"
+          },
+          {
+            "name": "scale",
+            "required": false,
+            "description": "Skala upscale: 1-4 (default: 2)"
+          }
+        ]
+      },
+      {
+        "name": "HD Video",
+        "endpoint": "/api/tools/hdvideo",
+        "filename": "hdvideo",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "URL video yang ingin di-upscale"
+          },
+          {
+            "name": "resolution",
+            "required": false,
+            "description": "Resolusi output: 1080p | 2k | 4k (default: 2k)"
           }
         ]
       }
